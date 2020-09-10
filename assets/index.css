@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Rubik";
+  src: url("../assets/Rubik-Medium.ttf");
+}
+body {
+  background-color: #EBEBEB;
+}
+
+.time-container {
+  margin: 100px auto;
+  display: grid;
+  height: 300px;
+  width: 80%;
+  background-image: radial-gradient(circle at 50% -20.71%, #f4deff 0, #e0caf9 25%, #c8b5f2 50%, #aca2ec 75%, #8c91e7 100%);
+  border-radius: 15px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+.time-container .time {
+  grid-row: 1;
+  grid-column: auto;
+  height: 100%;
+  width: 100%;
+  color: #2B2727;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik";
+}
+.time-container .time div {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.time-container .time div span {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 90px;
+  text-transform: none;
+}
+
+/*# sourceMappingURL=index.css.map */
